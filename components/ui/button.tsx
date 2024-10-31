@@ -10,7 +10,7 @@ const buttonVariants = cva(
     variants: {
       variant: {
         default: "bg-primary text-primary-foreground hover:bg-primary/90",
-        primary: "bg-transparent hover: bg-[#6841DA] text-[#6841DA] hover:text-white border-[3px] border-[#6841DA]",
+        primary: "bg-transparent hover:bg-[#6841DA] text-[#6841DA] hover:text-white border-[3px] border-[#6841DA]",
         secondary: "bg-[#6841DA] text-white border-[3px] border-[#6841DA]",
       },
       size: {
