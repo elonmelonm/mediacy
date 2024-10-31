@@ -50,14 +50,12 @@ export const Navbar = () => {
                     ))}
                 </NavigationMenuList>
                 <NavigationMenuList>
-                    <NavigationMenuItem>
+                    <NavigationMenuItem className="flex gap-6">
                         <Link href="/">
                             <Button variant="primary" size="lg">
                                 Login
                             </Button>
                         </Link>
-                    </NavigationMenuItem>
-                    <NavigationMenuItem>
                         <Link href="/">
                             <Button variant="primary" size="lg">
                                 Sign up
